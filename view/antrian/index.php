@@ -69,22 +69,36 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="hide"></button>
                     </div>
                     <div class="modal-body">
-                        <div class="mb-3">
+                    <div class="mb-3">
                             <label class="form-label">Waktu Kedatangan</label>
                             <input type="time" name="waktudatang" id="waktudatang" class="form-control" />
                             <span id="waktu_kedatangan_error" class="text-danger"></span>
                         </div>
 
                         <div class="mb-3">
+                            <label class="form-label">Selisih Kedatangan</label>
+                            <input type="text" name="selisihkedatangan" id="selisihkedatangan" class="form-control" />
+                            <span id="selisihkedatangan" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
                             <label class="form-label">Waktu Awal Pelayanan</label>
                             <input type="time" name="awalpelayanan" id="awalpelayanan" class="form-control" />
                             <span id="waktu_awal_pelayanan_error" class="text-danger"></span>
                         </div>
-
+                        <div class="mb-3">
+                            <label class="form-label">Selisih_Pelayanan_Kasir</label>
+                            <input type="text" name="selisihpelayanankasir" id="selisihpelayanankasir" class="form-control" />
+                            <span id="selisih_pelayanan_kasir_error" class="text-danger"></span>
+                        </div>
                         <div class="mb-3">
                             <label class="form-label">Waktu Selesai</label>
                             <input type="time" name="selesai" id="selesai" class="form-control" />
                             <span id="waktu_selesai_error" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Selisih Keluar Antrian</label>
+                            <input type="text" name="selisihkeluarantrian" id="selisihkeluarantrian" class="form-control" />
+                            <span id="selisih_keluar_antrian_error" class="text-danger"></span>
                         </div>
 
 
